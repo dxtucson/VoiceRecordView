@@ -60,9 +60,9 @@ class VoiceRecordView : View {
     fun startRecord() {
         mediaRecorder = MediaRecorder().apply {
             setAudioSource(MediaRecorder.AudioSource.MIC)
-            setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP)
-            setOutputFile(context.cacheDir.path + File.separator + "audio.mp3")
-            setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
+            setOutputFormat(MediaRecorder.OutputFormat.MPEG_4)
+            setOutputFile(context.cacheDir.path + File.separator + "audio.m4a")
+            setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
             try {
                 prepare()
                 start()
