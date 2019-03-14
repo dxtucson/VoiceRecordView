@@ -80,6 +80,7 @@ class VoiceRecordView : View {
             release()
         }
         mediaRecorder = null
+        tag = "Stopped"
     }
 
     private fun updateAnimation() {
