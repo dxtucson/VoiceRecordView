@@ -1,6 +1,6 @@
 # VoiceRecordView
 
-Try to mimic Instagram's voice record bar.
+This code tries to mimic Instagram's voice record bar.
 <br>
 If your company asked you to sample sound in decibel and draw little bars with animation, this is it!
 
